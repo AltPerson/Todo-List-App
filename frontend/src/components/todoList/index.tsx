@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "react-query";
-import { useId, useState } from "react";
+import { useState } from "react";
 import TodoListItem from "../todoListItem";
 import { addTodo, fetchTodos } from "../../lib/actions";
 import { v4 as uuidv4 } from "uuid";
@@ -19,6 +19,7 @@ const TodoList = () => {
   };
 
   const buttonHandler = () => {
+    if (!todoText) return;
     mutateAsync({
       id: uuidv4(),
       text: todoText,
