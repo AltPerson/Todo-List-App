@@ -1,5 +1,6 @@
 export interface ITodoItem {
-	id: number;
+	id: string;
 	text: string;
+	isEdit: boolean;
 	isDone: boolean;
 }
