@@ -1,6 +1,6 @@
 # Todo List App
 
-This todo list has two versions of using with backend or without
+This todo list has two versions of using with backend server or without it.
 If you want to use with backend server
 
 1. Go to frontend
