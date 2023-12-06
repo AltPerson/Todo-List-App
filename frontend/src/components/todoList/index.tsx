@@ -72,8 +72,11 @@ const TodoList = () => {
             value={todoText}
             placeholder="Enter todo here"
             onChange={inputHandler}
-            onKeyDown={(e) => e.code === "Enter" && buttonHandler()}
-            className="outline-none border-[1px] border-gray-300 p-2 flex-1"
+            onKeyDown={(e) => {
+              if (e.code === "Enter" || e.code === "NumpadEnter")
+                buttonHandler();
+            }}
+            className="outline-none border-[1px] border-gray-300 p-2 w-full"
           />
           <button
             className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-3 rounded"
@@ -81,7 +84,7 @@ const TodoList = () => {
             Submit
           </button>
         </div>
-        <ul>
+        <ul className="max-h-[400px] overflow-auto">
           {data?.map((item) => (
             <TodoListItem {...item} key={item.id} />
           ))}
