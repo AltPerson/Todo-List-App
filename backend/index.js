@@ -36,6 +36,7 @@ app.listen(PORT, () => {
 
 app.get("/todos", (req, res) => {
   res.json(data);
+  // throw new Error("My custom thrown Error");
 });
 
 app.post("/addTodo", jsonParser, (req, res) => {

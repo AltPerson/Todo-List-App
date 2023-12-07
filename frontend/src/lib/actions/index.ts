@@ -1,4 +1,4 @@
-import { ITodoItem } from "@/types";
+import { IEditTodoOptions, ITodoItem } from "@/types";
 
 
 const baseUrl = "http://localhost:3000";
@@ -64,7 +64,7 @@ export const removeTodo = async (id: string) => {
 // 	data[dataItem].isEdit = !data[dataItem].isEdit;
 // }
 
-export const editTodo = async ({ id, text }: { id: string, text?: string }) => {
+export const editTodo = async ({ id, text }: IEditTodoOptions) => {
 	const requestOptions = {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
@@ -72,3 +72,4 @@ export const editTodo = async ({ id, text }: { id: string, text?: string }) => {
 	};
 	await fetch(`${baseUrl}/editTodo`, requestOptions);
 }
+

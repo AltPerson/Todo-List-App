@@ -1,6 +1,6 @@
 import "./App.css";
-import TodoList from "./components/todoList";
 import { QueryClient, QueryClientProvider } from "react-query";
+import TodoList from "./components/todoList";
 
 const queryClient = new QueryClient();
 function App() {
