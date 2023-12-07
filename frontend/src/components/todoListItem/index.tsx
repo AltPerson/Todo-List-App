@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from "react-query";
-import { ITodoItem } from "../../types";
-import { doTodo, editTodo, removeTodo } from "../../lib/actions";
 import { useState } from "react";
+import { ITodoItem } from "@/types";
+import { doTodo, removeTodo, editTodo } from "@/lib/actions";
 
 interface IProps extends ITodoItem {}
 

@@ -1,5 +1,4 @@
-import { data } from "../../constants";
-import { ITodoItem } from "../../types";
+import { ITodoItem } from "@/types";
 
 
 const baseUrl = "http://localhost:3000";

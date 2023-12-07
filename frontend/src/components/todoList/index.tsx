@@ -1,8 +1,8 @@
 import { useMutation, useQuery, useQueryClient } from "react-query";
 import { useState } from "react";
-import TodoListItem from "../todoListItem";
-import { addTodo, fetchTodos } from "../../lib/actions";
+import { addTodo, fetchTodos } from "@/lib/actions";
 import { v4 as uuidv4 } from "uuid";
+import TodoListItem from "../todoListItem";
 
 const TodoList = () => {
   const queryClient = useQueryClient();
