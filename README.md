@@ -1,4 +1,4 @@
-<div align='center'><img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/d43b6176-5961-49d6-88cd-dda752bf3c9a'/></div>
+<div align='center'><img src='https://github.com/AltPerson/todo-list/assets/39427362/a5dc9b20-e762-4da3-8a65-a8673b16a4fc'/></div>
 
 <h2>About the project</h2>
 
@@ -20,5 +20,5 @@ Github version has frontend and backend part.</p>
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/cfd84d30-3671-495c-b4d6-c073e8734c4c'/>
+<img src='https://github.com/AltPerson/todo-list/assets/39427362/8ad2b744-d201-499e-8be0-eff15af7de94'/>
 </div>
