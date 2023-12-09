@@ -1,16 +1,24 @@
-# Todo List App
+<div align='center'><img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/d43b6176-5961-49d6-88cd-dda752bf3c9a'/></div>
 
-This todo list has two versions of using with backend server or without it.
+<h2>About the project</h2>
 
-If you want to use with backend server
+<p>Todo List App is a SPA which represented to you simple todo list app.
+User can add, delete or edit a note in todo list.
+<a href='https://test-pet-todolist.netlify.app/'>Deployed version of website</a> using a simple backend server on express.js for state management.
+Github version has frontend and backend part.</p>
 
-1. Go to frontend
-2. npm run dev
-3. Go to backend
-4. npm run start
+👉 Live Demo: <a href='https://test-pet-todolist.netlify.app/'>Todo List App</a>
 
-If you want to use without backend server
+<h3>Build with:</h3>
 
-1. Go to frontend
-2. in file src/lib/actions/index.js comment base url and all functions with fetch request and uncomment others functions with same name
-3. npm run dev
+» React TS<br>
+» Tailwind CSS<br>
+» React-Query
+
+<h2>Screenshots of the Project 📸</h2>
+<br>
+<h3 align='center'>Home Page 🏡</h3>
+
+<div align='center'>
+<img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/cfd84d30-3671-495c-b4d6-c073e8734c4c'/>
+</div>

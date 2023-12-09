@@ -10,8 +10,8 @@ import {
 import { v4 as uuidv4 } from "uuid";
 import TodoListItem from "@/components/todoListItem";
 import Loader from "../loader";
-import Error from "../error";
 import { EKeyCodes } from "@/types";
+import ErrorComponent from "../error";
 
 const TodoList = () => {
   const queryClient = useQueryClient();
@@ -73,7 +73,7 @@ const TodoList = () => {
   }
 
   if (isError) {
-    return <Error error={error} />;
+    if (error instanceof Error) return <ErrorComponent msg={error.message} />;
   }
 
   return (
