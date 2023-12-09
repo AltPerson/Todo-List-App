@@ -1,4 +1,4 @@
-<div align='center'><img width=50px height=50px src='https://github.com/AltPerson/todo-list/assets/39427362/a5dc9b20-e762-4da3-8a65-a8673b16a4fc'/></div>
+<div align='center'><img width=200px height=200px src='https://github.com/AltPerson/todo-list/assets/39427362/a5dc9b20-e762-4da3-8a65-a8673b16a4fc'/></div>
 
 <h2>About the project</h2>
 
