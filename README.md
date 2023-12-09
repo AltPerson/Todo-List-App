@@ -13,7 +13,8 @@ Github version has frontend and backend part.</p>
 
 » React TS<br>
 » Tailwind CSS<br>
-» React-Query
+» React-Query<br>
+» Express.js<br>
 
 <h2>Screenshots of the Project 📸</h2>
 <br>
