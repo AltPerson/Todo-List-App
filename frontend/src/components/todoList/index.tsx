@@ -16,10 +16,7 @@ import ErrorComponent from "../error";
 const TodoList = () => {
   const queryClient = useQueryClient();
   const [todoText, setTodoText] = useState("");
-  const { data, isLoading, isError, error } = useQuery("todos", fetchTodos, {
-    refetchOnWindowFocus: false,
-    staleTime: Infinity,
-  });
+  const { data, isLoading, isError, error } = useQuery("todos", fetchTodos);
 
   const { mutateAsync: addTodoMutate } = useMutation(addTodo, {
     onSuccess: () => {

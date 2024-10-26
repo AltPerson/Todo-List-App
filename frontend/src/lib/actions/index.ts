@@ -1,7 +1,7 @@
 import { IEditTodoOptions, ITodoItem } from "@/types";
 
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = import.meta.env.VITE_API_URL;
 
 export const fetchTodos = async (): Promise<ITodoItem[]> => {
 	const result = await fetch(`${baseUrl}/todos`);
