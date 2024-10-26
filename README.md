@@ -4,7 +4,7 @@
 
 <p>Todo List App is a SPA which represented to you simple todo list app.<br>
 User can add, delete or edit a note in todo list.<br>
-<a href='https://test-pet-todolist.netlify.app/'>Deployed version of website</a> using a simple backend server on express.js for state management.<br>
+Deployed version of website using a simple backend server on express.js for state management.<br>
 Github version has frontend and backend part.</p>
 
 👉 Live Demo: <a href='https://test-pet-todolist.netlify.app/'>Todo List App</a>
